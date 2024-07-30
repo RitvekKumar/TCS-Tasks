@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="admin-container">
+        <button class="logout-btn" onclick="logout()">Logout</button>
+        <h1>Admin Home</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showUnderwriterRegistration()">Underwriter Registration</a></li>
+                <li><a href="#" onclick="showSearchUnderwriter()">Search Underwriter by Id</a></li>
+                <li><a href="#" onclick="showUpdatePassword()">Update Underwriter Password</a></li>
+                <li><a href="#" onclick="showDeleteUnderwriter()">Delete Underwriter by Id</a></li>
+                <li><a href="#" onclick="viewAllUnderwriters()">View All Underwriters</a></li>
+            </ul>
+        </nav>
+        <div id="adminContent"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
